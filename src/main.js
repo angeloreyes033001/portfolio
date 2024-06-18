@@ -1,5 +1,5 @@
 import './assets/main.css'
-
+import 'typeface-poppins';
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import PrimeVue from 'primevue/config'

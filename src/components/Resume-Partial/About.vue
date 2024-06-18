@@ -1,6 +1,8 @@
 <script setup>
 import { ref } from 'vue';
-import card from '@/components/partials/mini-card.vue'
+import card from '@/components/partials/mini-card.vue';
+import resume from '@/assets/resume.pdf';
+const myResume = ref(resume)
 
 const aboutMe = ref({
     firstname: "angelo",
@@ -28,6 +30,8 @@ const aboutMe = ref({
             <card label="Email" :data="aboutMe.contact.email" />
             <card label="Phone" :data="aboutMe.contact.phone" />
         </div>
-        <Button class="w-full md:w-[200px] mt-5" label="Download CV" icon="pi pi-download" iconPos="right" />
+        <a :href="myResume" download >
+            <Button label="Download CV" class="w-[200px]" icon="pi pi-download" iconPos="right" />
+        </a>
     </div>
 </template>

@@ -1,6 +1,8 @@
 <script setup>
 import { ref } from 'vue';
 
+import resume from '@/assets/resume.pdf';
+const myResume = ref(resume)
 
 </script>
 
@@ -14,8 +16,9 @@ import { ref } from 'vue';
           <div class="text-[40px] md:text-[70px] text-green-400 font-black text-center md:text-left" >ANGELO REYES</div>
           <p class="text-center md:text-left">I am proficient in various programming languages and technologies.</p>
           <div class="mt-4 text-center md:text-left" >
-            <Button label="Donwload CV" icon="pi pi-download" class=" rounded-[10px] w-[200px]k" iconPos="right" />
-
+            <a :href="myResume" download >
+              <Button label="Download CV" class="w-[200px]" icon="pi pi-download" iconPos="right" />
+            </a>
           </div>
         </div>
       </div>

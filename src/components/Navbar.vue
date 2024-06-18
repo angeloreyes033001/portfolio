@@ -60,7 +60,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
                 <i  name="menu" @click="Menu()" class="pi pi-bars cursor-pointer " ></i>
             </span>
         </div>
-        <ul class="md:flex md:items-center absolute w-full z-50 md:z-0 h-screen md:h-auto bg-slate-600 md:bg-transparent left-0 py-4 md:py-0 md:w-auto  md:static md:opacity-100" :class="{'opacity-0 -z-10': !showModal , 'opacity-100': showModal}" >
+        <ul class="md:flex md:items-center absolute w-full z-50 md:z-0 h-screen md:h-auto bg-slate-600 md:bg-transparent left-0 py-4 md:py-0 md:w-auto  md:static md:opacity-100" :class="{'opacity-0 hidden': !showModal , 'opacity-100': showModal}" >
             <li v-for="nav in navList" :key="nav.label" @click="showModal = false" class="mx-4 my-6 md:my-0 hover:text-green-400" >
                 <router-link  :to="nav.to" >{{ nav.label }}</router-link>
             </li>
