@@ -10,8 +10,9 @@
     import tailwind from '@/assets/images/skills/tailwind.svg';
     import bootstrap from '@/assets/images/skills/bootstrap.svg';
     import figma from '@/assets/images/skills/figma.svg';
+    import xampp from '@/assets/images/skills/xampp.png';
 
-    const skills = ref([html,css,js,vue,node,php,prime,tailwind,bootstrap,figma]);
+    const skills = ref([html,css,js,vue,node,php,prime,tailwind,bootstrap,figma,xampp]);
 
 </script>
 <template>

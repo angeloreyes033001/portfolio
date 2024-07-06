@@ -67,7 +67,7 @@
         {
             label: "location",
             value: "Zaragoza, Nueva Ecija",
-            icon: "pi pi-user"
+            icon: "pi pi-map-marker"
         }
     ]);
     
