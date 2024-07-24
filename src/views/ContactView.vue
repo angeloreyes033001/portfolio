@@ -61,7 +61,7 @@
         },
         {
             label: "Email",
-            value: "angeloreyes.work.033001@gmail.com",
+            value: "angelo.balisa.reyes@gmail.com",
             icon: "pi pi-envelope"
         },
         {
