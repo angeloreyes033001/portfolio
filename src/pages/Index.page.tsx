@@ -7,7 +7,7 @@ import FooterPage from "./Footer.page";
 import { useNavListData } from "@/data/navlist.data";
 
 const Index = () => {
-    const { navlistData, homeRef, skillRef, experienceRef, projectRef, contactRef, footerRef } = useNavListData();
+    const { navlistData, homeRef, skillRef, experienceRef, projectRef, contactRef } = useNavListData();
 
     return (
         <main className="bg-main-color h-screen w-full overflow-auto">
@@ -17,7 +17,7 @@ const Index = () => {
                 <div className="h-auto"  ref={experienceRef}><ExperiencePage /></div>
                 <div className="min-h-full"  ref={projectRef}><ProjectPage /></div>
                 <div className="h-auto"  ref={contactRef}><ContactPage /></div>
-                <div className="h-auto"  ref={footerRef}><FooterPage listNav={navlistData} /></div>
+                <div className="h-auto" ><FooterPage /></div>
             </section>
         </main>
     );

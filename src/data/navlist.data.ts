@@ -7,7 +7,6 @@ export const useNavListData = () => {
     const experienceRef = useRef<HTMLDivElement>(null);
     const projectRef = useRef<HTMLDivElement>(null);
     const contactRef = useRef<HTMLDivElement>(null);
-    const footerRef = useRef<HTMLDivElement>(null);
 
     const navlistData: navlistProps[] = [
         { id: "home", label: "Home", ref: homeRef },
@@ -17,5 +16,5 @@ export const useNavListData = () => {
         { id: "contact", label: "Contact", ref: contactRef },
     ];
 
-    return { navlistData, homeRef ,skillRef, experienceRef, projectRef, contactRef, footerRef };
+    return { navlistData, homeRef ,skillRef, experienceRef, projectRef, contactRef };
 };

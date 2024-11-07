@@ -1,18 +1,9 @@
-import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import React from "react";
-import { navlistProps } from "@/types/navlist.type";
-import scrollToSection from "@/lib/smothScroll.lib";
-import resume from '@/assets/resume_angelo_reyes.pdf';
 import messenger  from '@/assets/messenger.png';
-import { BiSolidCloudDownload } from "react-icons/bi";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoPhonePortrait } from "react-icons/io5";
 import { FaFacebookSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-interface FooterProps {
-    listNav: navlistProps[];
-}
 
 const contactlist = [
     { label: "Zaragoza, Nueva Ecija", icon: <IoLocationSharp className="text-white" /> },
@@ -20,7 +11,7 @@ const contactlist = [
     { label: "angelo.balisa.reyes@gmail.com", icon: <MdEmail className="text-white" /> },
 ]
 
-const Footer: React.FC<FooterProps> = ({ listNav }) => {
+const Footer = () => {
 
     return (
         <>

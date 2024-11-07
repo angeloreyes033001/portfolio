@@ -4,7 +4,6 @@ import projectSharedData from "@/data/project.data";
 import { useState } from "react";
 import { IoIosArrowDropdown } from "react-icons/io";
 import { IoIosArrowDropup } from "react-icons/io";
-import algetile from '@/assets/project/algetiles.jpg';
 
 const Project = ()=>{
 
