@@ -18,6 +18,7 @@ const Experience = ()=>{
                                     date={experience.date}
                                     company={experience.company}
                                     position={experience.position}
+                                    location={experience.location}
                                     description={experience.description}
                                 />
                             ))

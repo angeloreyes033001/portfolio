@@ -31,10 +31,10 @@ const Project = ()=>{
                             [...projectSharedData].reverse().slice(0,visibleCount).map((project)=>(
                                 <div key={project.id} className=" h-[400px] text-white group" >
                                     <div className="bg-cover bg-no-repeat bg-center h-full rounded-[10px]" style={{ backgroundImage: `url(${project.image})` }}>
-                                        <div className=" bg-white/30 rounded-[10px] group-hover:bg-white/80 text-black p-5 h-full grid items-end group-hover:items-center " >
+                                        <div className=" bg-white/30 rounded-[10px] group-hover:bg-white/80 text-black p-10 h-full grid items-end group-hover:items-center " >
                                             <div className="opacity-0 group-hover:opacity-100 transition-all duration-1000" >
                                                 <h1 className=" font-bold text-center text-[20px]" >{project.title}</h1>
-                                                <p className="" >{project.desription}</p>
+                                                <p className=" font-extralight" >{project.desription}</p>
                                                 <div className="text-center " >
                                                     {
                                                         project.tech.map((tech,i)=>(

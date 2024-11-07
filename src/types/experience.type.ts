@@ -7,5 +7,6 @@ export interface ExperienceListProps {
     date: string,
     company: string,
     position: string,
+    location:string,
     description:string
 }

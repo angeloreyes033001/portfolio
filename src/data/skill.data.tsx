@@ -10,6 +10,7 @@ import { SiExpress } from "react-icons/si";
 import { SiShadcnui } from "react-icons/si";
 import { DiMysql } from "react-icons/di";
 import { FaPhp } from "react-icons/fa";
+import { FaFigma } from "react-icons/fa6";
 
 const skillsSharedData = [
     { id: 1, label: "HTML", icon: <FaHtml5 className="text-white transition-all duration-300 group-hover:text-orange-400 size-[50px] group-hover:size-[60px]" /> },
@@ -24,6 +25,7 @@ const skillsSharedData = [
     { id: 10, label: "Shadcn/UI", icon: <SiShadcnui className="text-white transition-all duration-300 size-[50px] group-hover:size-[60px] group-hover:text-slate-400" /> },
     { id: 11, label: "MySQL", icon: <DiMysql className="text-white transition-all duration-300 size-[50px] group-hover:size-[60px] group-hover:text-orange-400" /> },
     { id: 12, label: "PHP", icon: <FaPhp className="text-white transition-all duration-300 size-[50px] group-hover:size-[60px] group-hover:text-blue-400" /> },
+    { id: 13, label: "Figma", icon: <FaFigma className="text-white transition-all duration-300 size-[50px] group-hover:size-[60px] group-hover:text-violet-400" /> },
 ];
 
 export default skillsSharedData;
