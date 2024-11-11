@@ -23,7 +23,7 @@ const Home : React.FC<FooterProps>= ({listNav})=>{
 
     const personaldata = {
         fullname: "Angelo Reyes",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempora quibusdam ab, dicta atque eius expedita. Voluptas mollitia cum corporis reprehenderit ut, ipsam nihil quibusdam quam quaerat nobis, nulla dolorum!",
+        description: "Passionate about crafting engaging digital experiences, I specialize in building responsive, efficient, and user-friendly web applications. With a strong foundation in modern web technologies, I bring ideas to life, turning visions into sleek, functional interfaces. Driven by creativity and innovation, I’m committed to delivering high-quality code and memorable user experiences.",
         profile: profileIMG,
         resume: resume
     }
