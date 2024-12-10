@@ -4,6 +4,7 @@ import automatedPortal from '@/assets/project/automated.png';
 import schedlr from '@/assets/project/schedlr.png';
 import ticketing from '@/assets/project/ticketing.png';
 import algetile from '@/assets/project/algetiles.jpg';
+import defineMe from '@/assets/project/defineme.png';
 
 const projectSharedData = [
     {
@@ -47,6 +48,13 @@ const projectSharedData = [
         desription: "This is my client's thesis project. A website game that helps you learn algebra easily and enjoyably way.",
         image: algetile ,
         tech: ["ReactJS","TailwindCSS","Supabase"]
+    },
+    {
+        id: 7, 
+        title: "DefineMe!: Online Dictionary",
+        desription: "DefineMe! is a free dictionary mobile applicatiom, You can download application here. (https://defineme.netlify.app)",
+        image: defineMe ,
+        tech: ["ReactJS","TailwindCSS","CapacitorJS"]
     },
 ]
 
